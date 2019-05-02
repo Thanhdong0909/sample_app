@@ -1,4 +1,5 @@
 en:
+  title_app: "Ruby on Rails Tutorial Sample App"
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
