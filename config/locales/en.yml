@@ -3,6 +3,18 @@ en:
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
+    header:
+      sample_app: "sample_app"
+      contact: "Contact"
+      login: "Login"
+    footer:
+      home: "Home"
+      about: "About"
+      contact: "Contact"
+      new: "New"
+      link_footer: "The %{book} by"
+      book_text: "Ruby on Rails Tutorial"
+      author_text: "Michael Hartl"
   static_pages:
     about:
       about: "About"
@@ -18,3 +30,9 @@ en:
       home: "Home"
       book_ror: "This is the home page for the %{link_ror} sample application."
       link_text: "Ruby on Rails Tutorial"
+      wellcome: "Welcome to the Sample App"
+  users:
+    new:
+      sign_up: "Sign up"
+      sign_up_now: "sign up now"
+      intro: "This will be a signup page for new users."
