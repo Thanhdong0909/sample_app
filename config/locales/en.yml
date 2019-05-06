@@ -7,6 +7,11 @@ en:
       sample_app: "sample_app"
       contact: "Contact"
       login: "Login"
+      users: "Users"
+      logout: "Logout"
+      profile: "Profile"
+      setting: "Settings"
+      account: "Account"
     footer:
       home: "Home"
       about: "About"
@@ -48,4 +53,8 @@ en:
       messages:
         one: "The form contains %{count} error."
         other: "The form contains %{count} error."
-
+  sessions:
+    new:
+      login: "Log in"
+    create:
+      login_fail: "Invalid email/password combination"
