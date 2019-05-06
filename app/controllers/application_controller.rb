@@ -3,6 +3,13 @@ class ApplicationController < ActionController::Base
   before_action :set_locale
   include SessionsHelper
 
+  def logged_in_user
+    return if logged_in? # user logged in
+    store_location
+    flash[:danger] = t ".login_mess"
+    redirect_to login_url
+  end
+
   private
 
   def set_locale

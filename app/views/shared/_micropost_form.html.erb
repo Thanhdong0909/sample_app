@@ -1,0 +1,12 @@
+<%= form_for(@micropost) do |f| %>
+  <%= render "shared/error_messages", object: f.object %>
+  <div class="field">
+    <%= f.text_area :content, placeholder: t(".text_placeHoder") %>
+  </div>
+  <%= f.submit "Post", class: "btn btn-primary" %>
+  <span class="picture">
+    <%= f.file_field :picture, accept: Settings.path_asset %>
+  </span>
+<% end %>
+
+<script src="<%= asset_path "my_js_file" %>"></script>
