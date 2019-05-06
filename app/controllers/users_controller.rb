@@ -17,9 +17,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t ".wellcome"
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t ".active_account"
+      redirect_to root_path
     else
       render :new
     end
@@ -56,7 +56,7 @@ class UsersController < ApplicationController
   def logged_in_user
     return if logged_in? # user logged in
     store_location
-    flash[:danger] = t".login_mess"
+    flash[:danger] = t ".login_mess"
     redirect_to login_url
   end
 
@@ -71,7 +71,7 @@ class UsersController < ApplicationController
   def load_user
     @user = User.find_by id: params[:id]
     return if @user
-    flash[:danger] =  t ".edit.error_invalid"
+    flash[:danger] = t ".edit.error_invalid"
     redirect_to root_path
   end
 end
