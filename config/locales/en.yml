@@ -36,3 +36,16 @@ en:
       sign_up: "Sign up"
       sign_up_now: "sign up now"
       intro: "This will be a signup page for new users."
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirm: "Confirmation"
+      create_account: "Create my account"
+    create:
+      wellcome: "Welcome to the Sample App"
+  shared:
+    error_messages:
+      messages:
+        one: "The form contains %{count} error."
+        other: "The form contains %{count} error."
+
