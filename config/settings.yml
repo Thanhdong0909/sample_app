@@ -1,3 +1,4 @@
 length_name_maximum: 50
 length_email_maximum: 255
 length_password_minimum: 6
+_true: "1"
