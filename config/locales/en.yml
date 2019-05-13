@@ -46,8 +46,21 @@ en:
       password: "Password"
       password_confirm: "Confirmation"
       create_account: "Create my account"
+      setting: "Settings"
+      delete: "delete"
+      confirm: "You sure?"
     create:
       wellcome: "Welcome to the Sample App"
+    user:
+      confirm: "You sure?"
+    edit:
+      save: "Save changes"
+      update: "Update your profile"
+      change: "change"
+      error_invalid: "User invalid"
+      delete_success: "User deleted"
+    index:
+      login_mess: "Please login"
   shared:
     error_messages:
       messages:
