@@ -2,3 +2,9 @@ length_name_maximum: 50
 length_email_maximum: 255
 length_password_minimum: 6
 _true: "1"
+host_heroku: "https://ancient-falls-61196.herokuapp.com"
+host: "http://localhost:3000"
+address: "smtp.sendgrid.net"
+port: "587"
+authentication: :plain,
+domain: heroku.com"

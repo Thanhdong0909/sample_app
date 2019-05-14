@@ -1,5 +1,12 @@
 en:
   title_app: "Ruby on Rails Tutorial Sample App"
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      wellcome: "Welcome to the Sample App! Click on the link below to activate your account"
+      active: "Activate"
+      accoutn_active: "Account activated!"
+      invalid_active: Invalid activation link"
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
@@ -50,7 +57,7 @@ en:
       delete: "delete"
       confirm: "You sure?"
     create:
-      wellcome: "Welcome to the Sample App"
+      active_account: "Please check your email to activate your account."
     user:
       confirm: "You sure?"
     edit:
@@ -72,3 +79,4 @@ en:
       remember_me: "Remember me on this computer"
     create:
       login_fail: "Invalid email/password combination"
+      active_messages: "Account not activated. Check your email for the activation link."
