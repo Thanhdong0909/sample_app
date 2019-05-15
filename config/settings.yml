@@ -4,7 +4,10 @@ length_password_minimum: 6
 _true: "1"
 host_heroku: "https://ancient-falls-61196.herokuapp.com"
 host: "http://localhost:3000"
-address: "smtp.sendgrid.net"
+address: "smtp.gmail.com"
 port: "587"
 authentication: :plain,
-domain: heroku.com"
+domain: "gmail.com"
+two_hours: 2
+host_local: "localhost"
+port_local: 3000
