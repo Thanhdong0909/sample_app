@@ -95,7 +95,7 @@ Rails.application.configure do
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
   host = Settings.host_heroku
-  config.action_mailer.default_url_options = { host: host }
+  config.action_mailer.default_url_options = {host:host_local, port:Settings.port_local}
   ActionMailer::Base.smtp_settings = {
     address: Settings.address,
     port: Settings.port,

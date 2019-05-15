@@ -7,6 +7,8 @@ en:
       active: "Activate"
       accoutn_active: "Account activated!"
       invalid_active: Invalid activation link"
+    password_reset:
+      subject: "Password reset"
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
@@ -80,3 +82,19 @@ en:
     create:
       login_fail: "Invalid email/password combination"
       active_messages: "Account not activated. Check your email for the activation link."
+  password_resets:
+    new:
+      forgot: "Forgot password"
+      email: "Email"
+      submit: "Submit"
+    edit:
+      reset: "Reset password"
+      password: "Password"
+      confirmation: "Password confirm"
+      update_password: "Update password"
+      error_mess: "user invalid"
+    create:
+      email_error: "Email address not found"
+      email_success: "Email sent with password reset instructions"
+      has_been_reset: "Password has been reset."
+      email_empty: "can't be empty"
