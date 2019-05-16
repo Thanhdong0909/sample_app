@@ -75,6 +75,13 @@ en:
       messages:
         one: "The form contains %{count} error."
         other: "The form contains %{count} error."
+    micropost_form:
+      text_placeHoder: "Compose new micropost..."
+    user_info:
+      view_profile: "view my profile"
+      count_microposts:
+        one: "%{count} micropost"
+        other: "%{count} micropost"
   sessions:
     new:
       login: "Log in"
@@ -98,3 +105,13 @@ en:
       email_success: "Email sent with password reset instructions"
       has_been_reset: "Password has been reset."
       email_empty: "can't be empty"
+  microposts:
+    create:
+      create_micropost: "Micropost created!"
+    destroy:
+      del_micropost: "Micropost deleted"
+      microposts_err: "Micropost invalid"
+      del_error: "Delete errors"
+    model:
+      upload_error: "should be less than 5MB"
+

@@ -11,3 +11,9 @@ domain: "gmail.com"
 two_hours: 2
 host_local: "localhost"
 port_local: 3000
+size_image: 50
+size_default: 80
+max_size: 5
+content_max: 140
+path_asset: "image/jpeg,image/gif,image/png"
+
